@@ -8,13 +8,13 @@ public class multipleException {
         //System.out.println("x[6]"+x[6]);
         System.out.println("x[3]: "+x[3]);
         //x[3]=30/0;
-        String a= null;
-        if (a.equals("ggg")){
-            System.out.println("Same");
-        }
-        else {
-            System.out.println("Not Same");
-        }
+        //String a= null;
+        // if (a.equals("ggg")){
+        //     System.out.println("Same");
+        // }
+        // else {
+        //     System.out.println("Not Same");
+        // }
     } catch (ArithmeticException ae) {
         System.out.println("Arithmetic Exception");
     }
